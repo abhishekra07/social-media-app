@@ -1,0 +1,59 @@
+/* Light theme */
+.theme-light .theme-selector {
+    color: #000;
+    background-color: white;
+    fill: darkblue;
+    background-color: #f6f3f3;
+    color: #555;
+    border-color: lightgray;
+  }
+  
+  /* Dark theme */
+  .theme-dark .theme-selector {
+    color: whitesmoke;
+    background-color: #222;
+    fill: white;
+    background-color: #333;
+    color: lightgray;
+    border-color: #444;
+  }
+  
+  /* Tables */
+  .theme-selector table {
+    /* Your table styles here */
+  }
+  
+  /* Mobile */
+  @media (max-width: 480px) {
+    .theme-selector {
+      /* Your mobile styles here */
+    }
+  
+    /* Table styles for mobile */
+    .theme-selector table {
+      /* Your mobile table styles here */
+    }
+  
+    /* Mobile specific styles for the entire document */
+    body {
+      /* Your mobile body styles here */
+    }
+  }
+  
+  /* Tablet */
+  @media (max-width: 960px) {
+    .theme-selector {
+      /* Your tablet styles here */
+    }
+  
+    /* Table styles for tablet */
+    .theme-selector table {
+      /* Your tablet table styles here */
+    }
+  
+    /* Tablet specific styles for the entire document */
+    body {
+      /* Your tablet body styles here */
+    }
+  }
+  

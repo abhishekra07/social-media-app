@@ -1,0 +1,62 @@
+.leftbar {
+  position: sticky;
+  top: 70px;
+  left: 0;
+  flex: 2;
+  background: white;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+}
+
+.leftbar::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+hr {
+  border: none;
+  height: 0.5px;
+  background-color: grey;
+  margin: 20px 0px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.user {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.item img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list > span {
+  font-size: 12px;
+}

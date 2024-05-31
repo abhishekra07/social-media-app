@@ -1,0 +1,87 @@
+.rightbar {
+  flex: 3;
+  position: sticky;
+  top: 50px;
+  overflow: scroll;
+  height: calc(100vh - 50px);
+  background-color: rgb(242, 235, 235);
+}
+
+.rightbar::-webkit-scrollbar {
+  display: none;
+}
+
+.rightbar > .container {
+  padding: 20px;
+}
+
+.rightbar > .container > .items {
+  padding: 20px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.items > span {
+  color: gray;
+}
+
+.items > .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.items > .user > .userInfo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userInfo > .online {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.items > .user > .userInfo > p {
+  color: lightgray;
+}
+
+.items > .user > .userInfo > span {
+  font-weight: 500;
+  color: rgb(31, 30, 30);
+}
+
+.items > .user > .userInfo > p > span {
+  font-weight: 500;
+  color: rgb(31, 30, 30);
+}
+
+.items > .user > .buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.items > .user > .buttons > button {
+  border: none;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.items > .user > .buttons > button:first-child {
+  background-color: blue;
+}
+
+.items > .user > .buttons > button:last-child {
+  background-color: brown;
+}
